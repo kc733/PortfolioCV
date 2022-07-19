@@ -1,0 +1,262 @@
+body {
+	background-color: #18141c;
+	background-image: url("assets/logo.png");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 590px 70px;
+	overflow-x: hidden;
+
+}
+
+body:before {
+	backdrop-filter: blur(5px);
+	content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+
+    filter: blur(10px);
+    -moz-filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -o-filter: blur(10px);
+
+    transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    -webkit-animation:tejodes 5s linear;
+    animation:tejodes 2s linear;
+}
+
+@-webkit-keyframes tejodes {
+    from {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes tejodes {
+    from {
+        opacity: 0.9;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #18141c;
+}
+
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.headDiv {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.nameDiv {
+	color: #bfbcc2;
+	width: 90%;
+	padding-left: 10px;
+}
+
+.nameDiv p {
+	font-size: 25px;
+	font-family: "Ibarra Real Nova";
+	transition: all 1s;
+}
+
+.nameDiv:hover {
+	color: white;
+	text-shadow: 0 0 5px #ffffff;
+}
+
+.aboutButtonDiv {
+
+}
+
+.aboutButton {
+	color: #bfbcc2;
+	padding-top: 25px;
+	border: none;
+	background: none;
+	font-family: "Ibarra Real Nova";
+	font-size: 20px;
+	transition: all 1s;
+}
+
+button.aboutButton:hover {
+	color: white;
+	text-shadow: 0 0 5px #ffffff;
+}
+
+.aboutButton a {
+	text-decoration: none;
+	color: #bfbcc2;
+	padding-top: 25px;
+	border: none;
+	background: none;
+	font-family: "Ibarra Real Nova";
+	font-size: 20px;
+	transition: all 1s;
+}
+
+.TitleDiv {
+	display: flex;
+}
+
+.titleTextDiv {
+	font-family: "Ubuntu";
+	font-size: 50px;
+	color: white;
+	padding-top: 50px;
+	padding-left: 20px;
+	line-height: 70px;
+}
+
+.subTitleDiv {
+	color: #bfbcc2;
+	font-size: 25px;
+	font-family: "Ibarra Real Nova";
+	padding-left: 50px;
+	transition: all 1s;
+}
+
+.subTitleTextDiv {
+
+}
+
+.img {
+	height: 100%;
+}
+
+section:nth-child(1) {
+	height: 610px;
+}
+
+section:nth-child(2) {
+	color: #18141c;
+	background-color: #18141c;
+	font-family: "Ibarra Real Nova";
+	font-size: 20px;
+	height: 610px;
+}
+
+section:nth-child(3) {
+	color: #18141c;
+	background-color: #18141c;
+	font-family: "Ibarra Real Nova";
+	font-size: 20px;
+	height: 1000px;
+	display: flex;
+	flex-direction: row;
+}
+
+section:nth-child(4) {
+	color: #bfbcc2;
+	background-color: #bfbcc2;
+	font-family: "Ibarra Real Nova";
+	font-size: 20px;
+	height: 710px;
+}
+
+.container {
+	height: 610px;
+}
+
+.About {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.About h2 {
+	color: white;
+	text-transform: uppercase;
+}
+
+.aboutMe {
+	display: flex;
+	width: 500px;
+	padding: 100px;
+	margin: 50px;
+	background-color: #bfbcc2;
+}
+
+.containerWork {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.aboutWork1 {
+	width: 50px;
+	height: 50px;
+	padding: 100px;
+	margin: 50px;
+	background-color: #bfbcc2;
+}
+
+.aboutWork2 {
+	width: 50px;
+	height: 50px;
+	padding: 100px;
+	margin: 50px;
+	background-color: #bfbcc2;
+}
+
+.aboutWork3 {
+	width: 50px;
+	height: 50px;
+	padding: 100px;
+	margin: 50px;
+	background-color: #bfbcc2;
+}
+
+.ContactInfoDiv {
+	display: flex;
+	flex-direction: row;
+	height: 610px;
+	justify-content: center;
+	align-items: center;
+	padding-top: 100px;
+}
+
+.card1 {
+	display: flex;
+	padding: 100px;
+	margin: 50px;
+	background-color: #18141c;
+	box-shadow: 0 10px 20px #000000;
+	backdrop-filter: blur(20px);
+
+}
+
+.card2 {
+	display: flex;
+	align-items: center;
+	padding: 100px;
+	margin: 50px;
+	max-width: 200px;
+	background-color: #18141c;
+	box-shadow: 0 10px 20px #000000;
+	backdrop-filter: blur(20px);
+}
+
+.img {
+	width: 15%;
+	padding-right: 15px;
+}
